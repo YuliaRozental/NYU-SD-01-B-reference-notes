@@ -1,6 +1,6 @@
 # HTML cheat sheet
 
-_[<- Return to main menu](README.md)_
+_[<- Return to main menu](README.md#contents)_
 
 ## Definition
 
@@ -9,6 +9,11 @@ _[<- Return to main menu](README.md)_
 - "Hypertext" : It has links that can refer to other documents. _This was revolutionary in, like, 1990._
 - "Markup" : A way to use code to format documents. This document is written in _Markdown_, which is also a markup language. It's basically text formatting and structure.
 - "Language" : Self explanatory! :)
+
+## Reference
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [MDN: List of all HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 ## HTML is used to format _documents_
 

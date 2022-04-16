@@ -1,10 +1,15 @@
 # CSS
 
-_[<- Return to main menu](README.md)_
+_[<- Return to main menu](README.md#contents)_
 
 ## Definition
 
 **CSS** stands for "Cascading Style Sheets". Don't stress about the "cascading" for right now. "Style Sheets" means... a place to define some styles!
+
+## Reference
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [MDN: List of all CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#index)
 
 ## Selectors
 

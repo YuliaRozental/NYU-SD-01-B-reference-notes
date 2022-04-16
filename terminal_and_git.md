@@ -1,6 +1,6 @@
 # Terminal and Git cheat sheet
 
-_[<- Return to main menu](README.md)_
+_[<- Return to main menu](README.md#contents)_
 
 ## Terminal overview
 

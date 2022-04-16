@@ -1,10 +1,17 @@
 # JavaScript
 
-_[<- Return to main menu](README.md)_
+_[<- Return to main menu](README.md#contents)_
 
 ## Definition
 
-A programming language that runs in web browsers. It can interact with HTML and CSS in very useful ways. 
+A programming language that runs in web browsers. It can interact with HTML and CSS in very useful ways.
+
+## Reference
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [MDN: JS arithmetic operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#arithmetic_operators)
+- [MDN: Relational operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#relational_operators) (like `<` and `>`)
+- [MDN: Equality operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#equality_operators) (like `==` and `===`)
 
 ## JavaScript in action
 
@@ -32,7 +39,7 @@ console.log("value of favNumber:", favNumber)
 
 ## Variables
 
-A variable is, more or less, a label for a container that holds a value. You can declare a variable by using `var`/`let` (think of these as synonymous, for now) or `const` in the following syntax:
+A variable is, more or less, a label for a container that holds a value. You can _declare_ a variable by using `var`/`let` (think of these as synonymous, for now) or `const` in the following syntax:
 
 ```js
 let myCoolVariable = 123890213403
@@ -44,7 +51,7 @@ You can access the _value_ of a variable by simply saying its name:
 console.log(myCoolVariable) // prints 123890213403
 ```
 
-You can also change the value of a let or var variable just by using the `=` again:
+You can also change the value of a `let` or `var` variable just by using the `=` again:
 
 ```js
 myCoolVariable = 11
@@ -72,7 +79,7 @@ JavaScript has five "primitive" (i.e., raw or simple) value types:
 
 ## Expressions
 
-Expressions are evaluated by Javascript to give us a result. We can use operators to define an expression:
+Expressions are evaluated by Javascript to give us a result. We can use _operators_ to define an expression:
 
 - Arithmetic operators make JavaScript do math:
     - `2 + 2` (evaluates to `4`)
@@ -109,7 +116,7 @@ You can also throw in `else if (anotherExpression)` between `if` and `else` if t
 
 ### `switch` statements
 
-Don't stress too hard about `switch` at the moment, but it's another way to make decisions like this. Check MDN for a good explanation.
+Don't stress too hard about `switch` at the moment, but it's another way to make decisions like this. [Check MDN for a good explanation.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 ## Arrays
 
