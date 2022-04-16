@@ -17,7 +17,7 @@ _[<- Return to main menu](README.md#contents)_
 
 ## HTML is used to format _documents_
 
-The original idea of HTML was to share information in written form in a structured that could be formatted and displayed in a way that was easy to read. There are headings, and sections, and paragraphs, and so on. And you can put links in _anywhere_ that point to other cool documents. The internet was even more nerdy at the outset!
+The original idea of HTML was to share written information in a structured way that could be formatted and displayed such that it would be easy to read. There are headings, and sections, and paragraphs, and so on. And you can put links in _anywhere_ that point to other cool documents. The internet was even more nerdy at the outset!
 
 ## A document has two primary parts
 
