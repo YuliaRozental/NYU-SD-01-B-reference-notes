@@ -310,5 +310,41 @@ let myAnswer = addNumber(3,4)
 // myAnswer is now equal to 7
 ```
 
+## Scope
 
+The idea of _scope_ is a little tricky, but very useful once you get the hang of it.
+
+Basically, any block of code (set off by `{` and `}`) has it's _own_ private space for variables. Variables declared _globally_ (in the main part of your JavaScript program) can be accessed inside a code block, but variables declared with `let` or `const` _inside_ a given code block can't be read anywhere else.
+
+This comes into play often with functions and loops. Examples:
+
+```js
+let fruits = [ "plum", "banana", "pear" ]
+
+for (let i = 0; i < fruits.length; i++) {
+    let currentFruit = fruits[i]
+    // the variable "fruits" can be read inside the loop, even though it's outside
+    // "currentFruit" is created anew /each/ time through the loop! so each time the loop runs, currentFruit is a new variable with a different value
+    console.log("I ate a " + currentFruit + ". Delicious!")
+}
+
+console.log(currentFruit)
+// this would throw an error!!! we're outside the loop now, so currentFruit can't be read
+```
+
+With functions, scope also applies to parameters:
+
+```js
+function favoriteSong(title, artist) {
+    console.log("My favorite song is " + title + ".")
+    console.log("It's performed by " + artist + ".")
+    // title and artist here will be whatever is provided when the function is invoked.
+}
+
+favoriteSong("Never Gonna Give You Up","Rick Astley")
+// works fine! prints everything as directed in the function.
+
+console.log("My favorite song is " + title + ".")
+// the same line as above... but this throws an error! "title" is only available inside the function scope.
+```
 

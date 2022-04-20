@@ -48,6 +48,7 @@ Select from the table of contents below to explore a particular topic, or begin 
         - [Invoking functions](js.md#invoking-functions)
         - [Parameters](js.md#parameters)
         - [The `return` statement](js.md#the-return-statement)
+    - [Scope](js.md#scope)
 - [The DOM](dom.md)
     - [Definition](dom.md#definition)
     - [Elements in the DOM](dom.md#elements-in-the-dom)
