@@ -15,6 +15,9 @@ This makes _every_ property of _every_ element of the document accessible to (an
 ## Reference
 
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+- [MDN: Document.querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+- [MDN: Events](https://developer.mozilla.org/en-US/docs/Web/Events) (it gets really complicated!)
+
 
 ## Elements in the DOM
 
@@ -26,7 +29,7 @@ You _can_ dig in to the `document` object property-by-property, just as you coul
 
 The `document` object includes a very useful `.querySelector()` method. By providing any CSS selector in the parentheses, we can "grab" the _first_ element that matches the selector.
 
-You can use the same syntax you use to target elements in CSS.
+You can use the same syntax you use to target elements in CSS, except the selector must be a _string_ (i.e., encased in quotes).
 
 Examples:
 
@@ -175,4 +178,4 @@ myButton.addEventListener("click", function(e){
 })
 ```
 
->Note: It's worth `console.log()`ing `e` within the callback function sometime just to see how much information is in the event object!
+>Note: It's worth trying `console.log(e)` within the callback function sometime just to see how much information is in the event object!
