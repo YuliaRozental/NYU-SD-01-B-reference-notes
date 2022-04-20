@@ -43,6 +43,27 @@ Select from the table of contents below to explore a particular topic, or begin 
         - [`for` loops](js.md#for-loops)
         - [`for` loops with arrays](js.md#for-loops-with-arrays)
     - [Objects](js.md#objects)
+    - [Functions](js.md#functions)
+        - [Function declaration syntax](js.md#function-declaration-syntax)
+        - [Invoking functions](js.md#invoking-functions)
+        - [Parameters](js.md#parameters)
+        - [The `return` statement](js.md#the-return-statement)
+- [The DOM](dom.md)
+    - [Definition](dom.md#definition)
+    - [Elements in the DOM](dom.md#elements-in-the-dom)
+    - [`document.querySelector()`](dom.md#documentqueryselector)
+    - [The `style` attribute](dom.md#the-style-attribute)
+        - [CSS properties in `style`](dom.md#css-properties-in-style)
+    - [`.querySelectorAll()`](dom.md#queryselectorall)
+    - [Creating elements](dom.md#creating-elements)
+        - [Appending a created element](dom.md#appending-a-created-element)
+        - [Removing an element](dom.md#removing-an-element)
+    - [Events](dom.md#events)
+        - [Dynamically changing the DOM](dom.md#dynamically-changing-the-dom)
+        - [The event object](dom.md#the-event-object)
+
+
+
 
 
 ------------

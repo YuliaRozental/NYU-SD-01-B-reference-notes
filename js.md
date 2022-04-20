@@ -239,3 +239,76 @@ You can set or change property values using the same notation:
 license.state = "OH"
 // the value of the "state" property is now "OH"
 ```
+
+## Functions
+
+A _function_ in JavaScript is a block of code that _does not_ execute immediately. Rather, we can tell it to execute _whenever we want_ basically by saying its name again. Pretty cool!
+
+### Function declaration syntax
+
+Because there are no rules in JavaScript, there are like eight ways to define a function. :/ The one we looked at is called a [function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function).
+
+The syntax includes:
+
+- the `function` keyword. Easy to remember!
+- a name for the function. We can call it anything we want, but it makes sense to make it descriptive.
+- a pair of parentheses `()`. Optionally, we can include _parameters_ in the parentheses. Parameters are names we give to information we want to pass _in_ to the function.
+- a code block beginning with `{` and ending with `}`. Between these two, we can write as many lines of JavaScript instructions as we like.
+
+Example:
+
+```js
+function doWhatever() {
+    // there are lots of lines in here just to prove we can tell JS to do whatever we want it to :shrug
+    console.log("I'm a little teapot...")
+    console.log("Short and... short?")
+    console.log("Why am I a teapot? I don't know!")
+    console.log("(sung to the tune of 'Enter Sandman by Metallica')")
+}
+```
+
+### Invoking functions
+
+We can ask JavaScript to actually _execute_ the code by using the function's name followed by parentheses, like so:
+
+```js
+doWhatever()
+```
+
+### Parameters
+
+Parameters are like Mad Libs for functions. When we define a function, we can set labels for information we want to pass in. This information can then be used inside our function by referring to the parameter name.
+
+We pass in the information as "arguments" inside the parentheses when we invoke the function.
+
+```js
+function seriouslyMadLibs(noun, verb) {
+    console.log("I picked up the...")
+    console.log(noun)
+    console.log("...so that I could...")
+    console.log(verb)
+    console.log("...all day long.")
+}
+
+seriouslyMadLibs("frying pan","swim")
+// prints "I picked up the frying pan so that I could swim all day long."
+
+seriouslyMadLibs("banjo","cry")
+// prints "I picked up the banjo so that I could cry all day long."
+```
+
+### The `return` statement
+
+If we want a function to not just _do_ stuff but to also give us an answer to a question, we can use `return` inside the function. Whatever value follows `return` is sent _back_ out to wherever the function was invoked.
+
+```js
+function addNumber(n1, n2) {
+    return n1 + n2
+}
+
+let myAnswer = addNumber(3,4)
+// myAnswer is now equal to 7
+```
+
+
+
