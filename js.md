@@ -324,7 +324,8 @@ let fruits = [ "plum", "banana", "pear" ]
 for (let i = 0; i < fruits.length; i++) {
     let currentFruit = fruits[i]
     // the variable "fruits" can be read inside the loop, even though it's outside
-    // "currentFruit" is created anew /each/ time through the loop! so each time the loop runs, currentFruit is a new variable with a different value
+    // "currentFruit" is created anew /each/ time through the loop! 
+    // so each time the loop runs, currentFruit is a new variable with a different value
     console.log("I ate a " + currentFruit + ". Delicious!")
 }
 
@@ -342,7 +343,7 @@ function favoriteSong(title, artist) {
 }
 
 favoriteSong("Never Gonna Give You Up","Rick Astley")
-// works fine! prints everything as directed in the function.
+// works fine! prints everything as directed in the function. you got rick-rolled!
 
 console.log("My favorite song is " + title + ".")
 // the same line as above... but this throws an error! "title" is only available inside the function scope.
