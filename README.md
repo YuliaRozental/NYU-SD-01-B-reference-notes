@@ -63,9 +63,15 @@ Select from the table of contents below to explore a particular topic, or begin 
         - [Dynamically changing the DOM](dom.md#dynamically-changing-the-dom)
         - [The event object](dom.md#the-event-object)
 
+------------
 
+## Project example
 
+Remember the first day of class when we saw an example of what we could build with the tools from this unit?
 
+The code for that page is in the [`example-project` folder](example-project), with lots of explanatory comments in the JavaScript file.
+
+>Note: The only parts of the JS code that we haven't covered are `setTimeout` and `setInterval`, which have to do with timing. Everything else is something you've already learned!
 
 ------------
 
