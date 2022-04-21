@@ -51,6 +51,8 @@ let firstHeader = document.querySelector("h1")
 // firstHeader now contains the selected element
 ```
 
+>**Note:** Alongside `.querySelector`, other methods like `.getElementById` ([MDN reference](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)) and `.getElementsByClassName` ([MDN reference](https://developer.mozilla.org/en-US/docs/Web/API/Document/getelementsbyclassname)) can be used to select elements in a page. `.querySelector` is just the most versatile, as it can be used with any CSS selector.
+
 ## The `style` attribute
 
 Every DOM element has a `style` attribute that contains information about the styles applied _directly_ to that element. If you're using CSS classes for styling, the `selectedElement.style` attribute might be mostly empty to start -- but we can use JS to change it.
